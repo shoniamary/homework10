@@ -125,6 +125,8 @@ margin-bottom: 20px;
     display: flex;
     flex-direction:column;
     row-gap: 16px;
+width: 100%;
+    
     
     
 
@@ -166,13 +168,19 @@ font-family: Inter;
 font-size: 24.653px;
 font-style: normal;
 font-weight: 900;
-line-height: 26.414px; /* 107.143% */
+line-height: 26.414px;
 letter-spacing: -0.44px;
 text-transform: uppercase;
+
 }
 .footer_right{
     display: flex;
   column-gap: 80px;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
 }
 .column_text{
     color: #FFF;
@@ -190,4 +198,5 @@ font-style: normal;
 font-weight: 700;
 line-height: 24px;
 letter-spacing: 0.1px;
+margin-bottom: 16px;
 }
